@@ -9,9 +9,8 @@ describe("Insertion function test", () => {
   });
 
   it("List empty insert at end", () => {
-    doublyLL.insertAtEnd(3);
-    expect(doublyLL.start.data).toEqual(2);
-    expect(doublyLL.start.next.data).toEqual(3);
+    doublyLL.insertAtEnd(4);
+    expect(doublyLL.end.data).toEqual(4);
   });
 
   it("Insert at start expect Head value equal to new insert value", () => {

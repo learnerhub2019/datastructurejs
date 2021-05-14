@@ -4,6 +4,10 @@ function Node(data) {
   this.right = null;
 }
 
+// function binaryTree() {
+//   this.root = 
+// }
+
 function inOrderTraversal(root) {
   if (!root) return;
   inOrderTraversal(root.left);
