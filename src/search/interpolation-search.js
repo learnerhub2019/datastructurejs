@@ -3,6 +3,8 @@ Interpolation search is an improved variant of binary search.
 This search algorithm works on the probing position of the required value.
  For this algorithm to work properly, 
  the data collection should be in a sorted form and equally distributed.
+
+ guess( mid ) = min + ( ( key - arr[min]) * ( max - min) / ( arr[max] - arr[min]) )
  */
 
 function interpolationSearch(key, arr) {
